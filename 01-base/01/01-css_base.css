@@ -1,0 +1,213 @@
+ #nav1 li{ display:inline; float:left; margin-right:8px; white-space:nowrap; line-height:25px; }*/
+
+*{
+    margin:0;padding:0;
+}
+body{
+    font-family:'Microsoft YaHei';
+    background:#dedede;
+}
+
+
+/*头部*/
+header{
+    position:relative;
+    height: 66px;
+    background: lightslategray;
+}
+/*************标题样式***************/
+.tittle{
+    color: black;
+    font-size: 20px;
+}
+/*一级标题样式*/
+.tittle2{
+    color: gray;
+    font-size: 17px;
+}
+/*二级标题样式*/
+.auther{
+    color: gray;
+    font-size: 10px;
+}
+.aTime{
+    color: gray;
+    font-size: 10px;
+}
+/*作者\时间 样式*/
+
+*{line-height:150%;}
+/*行间距*/
+
+p{text-indent: 2em;}
+
+
+/*********************************/
+
+header nav{
+    position:absolute;
+    top:15px;
+    right:15px;
+}
+/*定义导航浮动浮动 */
+
+article,aside{
+    display: block;
+    /*定义元素为block块级元素*/
+    margin: 50px; padding: 30px;
+    /*定义元素外边距内边距*/
+    background: white;
+    /*定义元素背景颜色*/
+    box-shadow: 1px 1px 2px 1px darkgray;
+    /*定义元素阴影*/
+}
+/*定义article\aside\section 3个元素的 属性*/
+
+
+ul{
+    white-space: nowrap;
+}
+
+nav li{display:inline;}
+
+.pika2{width:35%; height:35%;}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    width: 150px;
+    height: 50px;}
+/*定义logo大小\位置*/
+
+/*图片样式*/
+figure{
+    text-align: center;
+    font-size: 10px;
+    border: 1px;
+    border-style: dashed;
+/*边框样式,solid 实线*/
+    border-color: #e8ecef;
+    margin: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+figure figcaption {
+    line-height: 25px;
+}
+
+figure img {
+    width: 110px;
+    height: 110px;
+}
+
+
+article li {
+    margin: 5px 40px;
+}
+
+/*表格部分*/
+.stuTab {
+    width: 90%;
+    border: 1px;
+    border-color: #e6e6e6;
+    border-style: solid;
+    border-collapse:collapse;
+
+}
+/*表格 外框 样式*/
+
+.stuTab td, .stuTab th {
+    text-align: left;
+    border: 1px solid #e6e6e6;
+}
+/*表格内框样式*/
+
+.stuTab th {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+/*表格背景颜色、颜色*/
+
+aside blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+}
+
+aside .form {
+    line-height: 40px;
+}
+
+
+/*********************侧栏*************************/
+aside h2{
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+    border-left:3px solid #ccc;
+}
+/*侧栏样式*/
+
+aside form div{
+    font-size: 13px;
+    margin:19px 0;/*外边距*/
+}
+/*文字大小、边距*/
+
+aside form div .tips{
+    float:left;           /*添加后个人描述四个字才和文本域上对齐*/
+    text-align:right; /*文字对齐方向*/
+    width:35%;
+    padding-right:19px; /*内边距*/
+}
+/*输入框样式*/
+
+aside form div p{
+    margin-left:34%;
+    margin-top: 5px;
+    padding-left:7px;
+    font-size:11px;
+    color: #aaa;
+}
+/*提示文字的样式*/
+
+aside textarea{
+    width:50%;
+    height:100px;
+}
+/*大输入文本框的样式*/
+
+
+aside .submitButton{
+    width:100%;
+    height:40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border:none;
+}
+
+/*提交按钮样式*/
+
+
+aside .submitButton:hover{
+    background: #0063dc;
+
+}
+/**/
+
+/*底部*//*hollowtree************************************************/
+
+
+footer {
+    background-color: #000000;
+    color: #e8ecef;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*底部样式
