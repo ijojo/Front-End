@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+	min-width: 1280px;
+	height: 4560px;
+	font-family: "黑体";
+}
+
+.header{
+	width: 100%;
+	height: 55px;
+	background: white;
+}
+
+.logo1{
+	float: left;
+	margin-left: 58px;
+	font-size: 21px;
+	color: #393a3a;
+	height: 55px;
+	vertical-align: middle
+}
+
+.logo1 img{
+	height: 31px;
+	width: 31px;
+	vertical-align: middle;
+	margin-right: 13px;
+}
