@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HTML&CSS基础</title>
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" type="text/css" href="05-css_base.css">
+</head>
+<body>
+	
+	<header class="mainheader">
+		<img src="img/logo-1.png" alt="logo"  class="logo">
+		<nav role="navigation">
+			<ul>
+				<li><a href = "http://www.baidu.com">导航链接1</a></li>
+				<li><a href = "http://www.baidu.com">导航链接2</a></li>
+				<li><a href = "http://www.baidu.com">导航链接3</a></li>
+				<li><a href = "http://www.baidu.com">导航链接4</a></li>
+			</ul>
+		</nav>
+		
+	</header>
+
+	<!-- /头部 -->
+
+	<aside>
+		<div>
+			<h2 id="sidebar1">这里以后是侧栏，这是侧栏的标题</h2>
+		</div>
+		
+		<div class="form">
+			<form action="save.php" method="post">
+				<div>
+					<label class="tips">请输入邮箱地址</label>
+
+					<input type="text" placeholder="邮箱" />
+					<p>邮箱地址请按要求格式输入</p>
+				</div>
+
+				<div>
+					<label class="tips">请输入密码</label>
+					<input type="password" placeholder="密码" />
+				</div>
+
+				<div>
+					<label class="tips">请重复输入密码</label>
+					<input type="password" placeholder="请重复输入密码" />
+					<p>密码请为6-16位英文数字</p>
+				</div>
+			</form>
+
+
+			<form action="save.php" method="post">
+				<!--同一组的单选按钮，name 取值一定要一致，这样同一组的单选按钮才可以起到单选的作用。-->
+				<div>
+					<label class="tips">性别</label>
+					<!--value提交数据到服务器的值；checked默认被选中-->
+
+					<input type="radio" value="male" name="sex" checked="checked" />
+					<label>男</label>
+					<input type="radio" value="female" name="sex" />
+					<label>女</label>
+				</div>
+
+			</form>
+			<form action="save.php" method="post">
+				<div>
+					<label class="tips">城市</label>
+					<select>
+						<option value="北京">北京</option>
+						<option value="上海" selected="selected">上海</option>
+						<option value="广州">广州</option>
+					</select>
+				</div>
+			</form>
+			<form action="save.php" method="post">
+				<div>
+					<label class="tips">爱好</label>
+					<input type="checkbox" value="sport" name="hobby" />
+					<label>运动</label>
+					<input type="checkbox" value="art" name="hobby" />
+					<label>艺术</label>
+					<input type="checkbox" value="science" name="hobby" />
+					<label>科学</label>
+				</div>
+			</form>
+			<form action="save.php" method="post">
+				<div>
+					<label class="tips">个人描述</label>
+
+					<textarea rows="2" cols="20" >这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
+				</div>
+			</form>
+			<input type="button" class="submitButton" value="确认提交" />
+
+			</div>
+		</aside>
+
+	<main role="main">
+	<!-- role增强语义 -->
+		<article>
+		<!-- 单独文章用artcle -->
+			<h2 class="tittle">文章一级标题</h2>
+			<h3 class="tittle2">文章二级标题</h3>
+			<span class="auther">文章作者&nbsp&nbsp</span><span class="aTime">文章发表时间</span>
+			<!-- span：定义行内元素 -->
+			<p>
+			1这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了
+			</p>
+			<p>
+			2这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了
+			</p>
+			<p>
+			3这是一个很长的段落这是一个很长的段落<a href="http://www.baidu.com">这里有个链接到www.baidu.com</a><b>我是粗体</b>换行
+			</p>
+
+			<img src="img/t.jpg" alt="01" class="pika2">
+			<p>
+			4这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了
+			</p>
+			<p>
+			5这是一个很长的段落这是一个很长的段落<a href="http://www.baidu.com" target="_blank">这里有个链接到www.baidu.com</a><b>我是粗体</b>换行
+			</p>
+
+		</article>
+			
+		
+		<article>
+		<!-- 单独文章用artcle -->
+
+			<h2 class="tittle">另一篇文章一级标题</h2>
+			<h3 class="tittle2">文章二级标题</h3>
+			<span class="auther">文章作者&nbsp&nbsp</span><span class="aTime">文章发表时间</span>
+			<p>
+			6这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了
+			</p>
+			<p>
+			7这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落换行了
+			</p>
+			<p>
+			8这是一个很长的段落这是一个很长的段落<a href="http://www.baidu.com">这里有个链接到www.baidu.com</a><b>我是粗体</b>换行
+			</p>
+			<img src="img/t.jpg" alt="01" class="pika2">
+
+			<li>项目列表1</li>
+			<li>项目列表2</li>
+			<li>项目列表3</li>
+			 <!-- 无序项目列表  直接用li -->
+
+		</article>
+	
+		<article>
+		<section class="pic">
+		<!-- 上下语境连接用section -->
+			<h2>照片墙</h2>
+
+			<figure>
+			<!-- <figure> 标签用于对元素进行组合。 -->
+				<figcaption>皮卡丘</figcaption>
+				<!-- <figcaption> 标签定义 figure 元素的标题（caption） -->
+				<img src="img/2.jpg" alt="pika" class="pika">
+			</figure>
+			
+			<figure>
+				<figcaption>皮卡丘</figcaption>
+				<img src="img/2.jpg" alt="pika" class="pika">
+			</figure>
+
+			<figure>
+				<figcaption>皮卡丘</figcaption>
+				<img src="img/2.jpg" alt="pika" class="pika">
+			</figure>
+
+			<figure>
+				<figcaption>皮卡丘</figcaption>
+				<img src="img/2.jpg" alt="pika" class="pika">
+			</figure>
+			
+
+		</section>
+		</article>
+
+
+		<article>
+		<!-- 单独文章用artcle -->
+		<h2 class="tittle">最后一篇文章一级标题</h2>
+		<h3 class="tittle2">文章二级标题</h3>
+		<span class="auther">文章作者&nbsp&nbsp</span><span class="aTime">文章发表时间</span>
+
+		<ol>
+		<!-- 有序项目列表 ol -->
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+
+
+
+		<caption>下面是一个表格，给表格加了一个border="1",好让你看出这是一个表格</caption>
+
+		<table border="1" class="stuTab"> 
+		<!-- 
+		<thead> 标签定义表格的表头。该标签用于组合 HTML 表格的表头内容。
+		thead 元素应该与 tbody 和 tfoot 元素结合起来使用。
+		-->
+			<thead>
+				<th colspan="" rowspan="" headers="">表头</th>
+				<th colspan="" rowspan="" headers="">表头</th>
+				<th colspan="" rowspan="" headers="">表头</th>
+				<!-- th 定义表格内的表头单元格 -->
+			</thead>
+			
+			<tbody>
+			<!-- <tbody> 标签表格主体（正文）。该标签用于组合 HTML 表格的主体内容。 -->
+			<tr>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers=""><a href="">操作</a></td>
+
+			</tr>
+			<tr>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers=""><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers=""><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers=""><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers="">表内容单元格</td>
+				<td colspan="" rowspan="" headers=""><a href="">操作</a></td>
+			</tr>
+			<tr>
+				<td colspan="" rowspan="" headers="">总计</td>
+				<td colspan="2" rowspan="" headers="">1000</td>
+			</tr>
+			</tbody>
+			
+		</table>
+		</article>
+		
+	</main>
+	<!-- 内容 -->
+
+	
+		<footer>
+		<p>版权所有&copy;shiorijojo</p>
+		</footer>
+	<!-- 尾部 -->
+
+	
+</body>
+</html>
